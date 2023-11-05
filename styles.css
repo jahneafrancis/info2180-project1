@@ -1,0 +1,216 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .container nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 71%;
+}
+
+header .container h1{
+    font-size: 18px;
+}
+
+header .container nav ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #6b7280;
+}
+
+header .container nav ul a:hover{
+    color: #5A67D8;
+}
+
+.overview-hero-image img{
+    width: 70%;
+    height: auto;
+}
+
+.overview-hero{
+    background-color:#E2E8F0 ;
+}
+
+.overview-hero-text h2{
+    white-space: nowrap;
+}
+
+.overview-hero-text p{
+    width: 150%;
+}
+
+.learn-about .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-about .container h2{
+    align-self: flex-start;
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px ;
+    border-color: #E2E8F0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) ;
+    border-radius: 5px;
+} 
+
+.card{
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.card img{
+    height: auto;
+    width: 90%;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container{
+    margin-top: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    align-items: center;
+    
+}
+.testing .container .testing-desciption{
+    width: 500px;  
+    line-height: 1.5;
+    white-space: normal;
+}
+
+.testing .container .cta .btn{
+    border-radius: 5px;
+    white-space: nowrap;
+    padding-left: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 32px;
+    text-decoration: none;
+    margin-top: 24px;
+    background-color: #48BB78;
+    color: white;
+}
+
+.stories{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  
+}
+.stories .container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.stories .container h2{
+    align-self: flex-start;
+    margin-left: 3%;
+    color: #5A67D8;
+}
+.stories .container article h3{
+    font-size: 18px;
+}
+.stories .container article a{
+    text-decoration: none;
+    color: #5A67D8;
+    font-weight: bold;
+}
+.stories .container article{
+    align-self: flex-start;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    gap: 36px;
+    padding: 36px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.stories .container article img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.newsletter{
+    width: 100vw;
+    background-color: #48BB78;
+}
+.newsletter .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 64px;
+    padding-top: 32px;
+}
+.newsletter .container form{
+    display: flex;
+    gap:10px;
+}
+.newsletter .container input{
+    margin-top: 16px;
+    width: 300px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.newsletter .container p{
+    width: 48%;
+    
+}
+.newsletter .container button{
+    margin-top: 16px;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #5A67D8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: #4A5568;
+    color:white;
+    padding: 24px;
+}
